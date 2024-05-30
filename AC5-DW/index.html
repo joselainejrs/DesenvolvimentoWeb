@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </link>
+    <link rel="stylesheet" type="text/css" href="global.css">
+    </link>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Dosis:wght@200;400;600&family=Kdam+Thmor+Pro&family=Oswald:wght@200;400;600&display=swap"
+        rel="stylesheet">
+    <title>Computação Quântica</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Seleciona o botão de navegação
+            var btnNav = document.getElementById('btn-nav');
+
+            // Seleciona os links do menu
+            var links = document.querySelectorAll('.navigation a');
+
+            // Adiciona um evento de clique a cada link do menu
+            links.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    // Verifica se o botão de navegação está marcado (menu visível)
+                    if (btnNav.checked) {
+                        // Desmarca o botão de navegação (oculta o menu)
+                        btnNav.checked = false;
+                    } else {
+                        // Marca o botão de navegação (exibe o menu)
+                        btnNav.checked = true;
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="main-header">
+        <label for="btn-nav" class="btn-nav">
+            <i class="fas fa-bars">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </i>
+        </label>
+        <input type="checkbox" id="btn-nav">
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobreComputacao">Sobre a Computação Quântica</a></li>
+                <li><a href="#comoIngressar">Como Ingressar</a></li>
+                <li><a href="#aplicacoesPraticas">Aplicações Práticas</a></li>
+                <li><a href="#desafiosOportunidades">Desafios e Oportunidades</a></li>
+                <li><a href="#matematica">Matemática da Computação Quântica</a></li>
+                <li><a href="perguntas.html">Perguntas frequêntes</a></li>
+            </ul>
+        </nav>
+
+        <p class="text-info">mundo da computação quântica</p>
+
+    </header>
+
+    <section id="home">
+        <div class="img-destaque">
+            <img src="modelo1.jpg" alt="" class="imgHome">
+        </div>
+
+        <div class="text-descricao">
+            <h1 class="titulo">Introdução</h1>
+            <p class="descricao">
+                Com base nas informações disponíveis. A computação quântica é uma área em desenvolvimento que utiliza os
+                princípios da mecânica quântica para processar e armazenar informações de maneira revolucionária.
+            </p>
+        </div>
+    </section>
+
+    <div class="espacamento-linha">
+        <hr class="linha">
+    </div>
+
+    <section id="sobreComputacao" class="text-descricao">
+        <h1 class="titulo">Sobre a Computação Quântica</h1>
+        <p class="descricao">
+            A Computação Quântica é uma abordagem que utiliza qubits (explicação), unidades quânticas de informação,
+            para executar cálculos complexos. Diferente da computação clássica, ela explora a superposição e o
+            entrelaçamento, permitindo um aumento exponencial na capacidade de processamento.
+        </p>
+
+        <h4 class="subtitulo">Vantagens x desvantagens</h4>
+
+        <div id="vantagens-desvantagens">
+            <div class="texto-vd">
+                <div class="espaco-vd">
+                    <p>Capacidade de realizar cálculos paralelos, o que pode aumentar significativamente a velocidade de
+                        processamento;</p>
+                </div>
+                <div class="espaco-vd">
+                    <p>Agilidade na resolução de problemas;
+                    </p>
+                </div>
+            </div>
+            <div class="texto-vd">
+                <div class="espaco-vd">
+                    <p>Armazenamento de dados em quantidades muito maiores, devido à capacidade de processamento e à
+                        superposição quântica;</p>
+                </div>
+                <div class="espaco-vd">
+                    <p>Menor consumo de energia em comparação com supercomputadores convencionais.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <h4 class="subtitulo ">Como funciona a Computação Quântica</h4>
+
+        <div class="img-destaque">
+            <img src="como-funciona-quantica.jpg" alt="" class="imgQuantica">
+        </div>
+
+        <div class="conteudo text-Quantica">
+            <div class="text">
+                <div class="">
+                    <p>
+                        <span>Decoerência</span><br><br>
+                        A decoerência é um desafio na Computação Quântica, pois a interação com o ambiente pode causar a perda de informações quânticas. Estratégias são utilizadas para minimizar esse efeito.
+                    </p>
+                </div>
+            </div>
+            <div class="text">
+                <div class="">
+                    <p>
+                        <span>Algoritmo Quântico</span><br><br>
+                        Os algoritmos quânticos aproveitam a superposição e o entrelaçamento para executar cálculos mais eficientemente, sendo especialmente úteis em problemas de otimização e criptografia
+                    </p>
+                </div>
+            </div>
+            <div class="text">
+                <div class="">
+                    <p>
+                        <span>Computadores Quânticos</span><br><br>
+                        Os computadores quânticos possuem qubits que podem ser manipulados para realizar cálculos complexos. Eles se baseiam em portas quânticas e operações unitárias para processar informações.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="espacamento-linha">
+        <hr class="linha">
+    </div>
+
+    <section id="comoIngressar" class="text-descricao">
+        <h1 class="titulo">Como Ingressar</h1>
+        <p class="descricao comoIngressar">
+            Para ingressar na área de computação quântica, é importante considerar a educação e as habilidades
+            necessárias, os recursos online e offline para aprender, bem como as experiências práticas e projetos
+            recomendados.
+        </p>
+
+        <div class="topicos-como-ingressar">
+            <table border="1">
+                <tr>
+                    <td>
+                        <p>Educação e habilidades necessárias</p>
+                        <ul>
+                            <li>
+                                <span>Formação em áreas relacionadas:</span><br>
+                                Como ciência da computação e área de exatas.
+                            </li>
+                            <li>
+                                <span>Conhecimentos:</span><br>
+                                Em matemática e física, especialmente mecânica quântica.
+                            </li>
+                            <li>
+                                <span>Habilidades:</span><br>
+                                programação e familiaridade com algoritmos.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>Recursos online e offline para aprender</p>
+                        <ul>
+                            <li>
+                                Cursos de graduação e pós-graduação em instituições de ensino.
+                            </li>
+                            <li>
+                                Plataformas online que oferecem cursos gratuitos e pagos sobre computação quântica.
+                            </li>
+                            <li>
+                                Livros e artigos acadêmicos que abordam os princípios e aplicações da computação
+                                quântica.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Experiências práticas e projetos recomendados:</p>
+                        <ul>
+                            <li>
+                                Buscar oportunidades de estágio, bolsas de pesquisa relacionados à computação quântica.
+                                Networking:
+                                Participar de eventos, conferências e grupos de estudo para estabelecer contatos com
+                                profissionais e pesquisadores atuantes na área.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>Recursos online e offline para aprender</p>
+                        <ul>
+                            <li>
+                                Experiências práticas e projetos recomendados:
+                                Buscar oportunidades de estágio, bolsas de pesquisa relacionados à computação quântica.
+                                Networking:
+                                Participar de eventos, conferências e grupos de estudo para estabelecer contatos com
+                                profissionais e pesquisadores atuantes na área.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="topicos-como-ingressar2">
+            <table border="1">
+                <tr>
+                    <td>
+                        <p>Educação e habilidades necessárias</p>
+                        <ul>
+                            <li>
+                                <span>Formação em áreas relacionadas:</span><br>
+                                Como ciência da computação e área de exatas.
+                            </li>
+                            <li>
+                                <span>Conhecimentos:</span><br>
+                                Em matemática e física, especialmente mecânica quântica.
+                            </li>
+                            <li>
+                                <span>Habilidades:</span><br>
+                                programação e familiaridade com algoritmos.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Recursos online e offline para aprender</p>
+                        <ul>
+                            <li>
+                                Cursos de graduação e pós-graduação em instituições de ensino.
+                            </li>
+                            <li>
+                                Plataformas online que oferecem cursos gratuitos e pagos sobre computação quântica.
+                            </li>
+                            <li>
+                                Livros e artigos acadêmicos que abordam os princípios e aplicações da computação
+                                quântica.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Experiências práticas e projetos recomendados:</p>
+                        <ul>
+                            <li>
+                                Buscar oportunidades de estágio, bolsas de pesquisa relacionados à computação quântica.
+                                Networking:
+                                Participar de eventos, conferências e grupos de estudo para estabelecer contatos com
+                                profissionais e pesquisadores atuantes na área.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Recursos online e offline para aprender</p>
+                        <ul>
+                            <li>
+                                Experiências práticas e projetos recomendados:
+                                Buscar oportunidades de estágio, bolsas de pesquisa relacionados à computação quântica.
+                                Networking:
+                                Participar de eventos, conferências e grupos de estudo para estabelecer contatos com
+                                profissionais e pesquisadores atuantes na área.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+    <div class="espacamento-linha">
+        <hr class="linha">
+    </div>
+
+    <section id="aplicacoesPraticas" class="text-descricao">
+        <h1 class="titulo">Aplicações Práticas da Computação Quântica</h1>
+
+        <p class="descricao">
+            Está revolucionando a maneira como pensamos sobre a resolução de problemas complexos. Nesta apresentação,
+            vamos explorar os setores e indústrias que podem se beneficiar, estudos de caso e exemplos reais, e o
+            impacto potencial no campo da ciência da computação.
+        </p>
+
+        <h4 class="subtitulo ">Setores e indústrias que podem se beneficiar</h4>
+
+        <p class="descricao">
+            Está revolucionando a maneira como pensamos sobre a resolução de problemas complexos. Nesta apresentação,
+            vamos explorar os setores e indústrias que podem se beneficiar, estudos de caso e exemplos reais, e o
+            impacto potencial no campo da ciência da computação.
+        </p>
+
+        <div class="financas">
+            <p class="subtitulo">Finanças</p>
+            <div class="conteudo">
+                <div class="text">
+                    <br>
+                    <br>
+                    <div class="img-destaque">
+                        <img src="Criptomoedas.png" alt="" class="img-menores-financas">
+                        <p>
+                            <span>Criptomoedas</span><br><br>
+                            Com a criptografia quântica, as moedas digitais podem se tornar mais seguras e resistentes
+                            aos hackers.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="Investimentos.png" alt="" class="img-menores-financas">
+                        <p>
+                            <span>Investimentos</span><br><br>
+                            Simulações complexas que tradicionalmente levariam séculos para serem feitas podem ser
+                            feitas em questão de segundos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="criptografia">
+            <p class="subtitulo">Criptografia</p><br><br>
+            <div class="conteudo">
+                <div class="text">
+                    <p>
+                        <span>Quebra de senhas</span><br><br>
+                        Através do uso de algoritmos quânticos, senhas podem ser quebradas em uma fração do tempo.
+                    </p>
+                </div>
+                <div class="text">
+                    <p>
+                        <span>Chaves de criptografia</span><br><br>
+                        Chaves quânticas podem providenciar comunicação segura sem a possibilidade de interceptação.
+                    </p>
+                </div>
+                <div class="text">
+                    <p>
+                        <span>Data segura</span><br><br>
+                        Com a ajuda da criptografia quântica, as comunicações online podem ser mais seguras do que
+                        nunca.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="logistica">
+            <p class="subtitulo">Logística</p><br><br>
+            <div class="conteudo">
+                <div class="text cor-roxa">
+                    <span>Transporte</span><br><br>
+                    <p class="">
+                        Aprender como resolver problemas de roteamento pode ajudar a otimizar o fluxo de transporte.
+                    </p>
+                </div>
+                <div class="text sem-roxo">
+                    <span>Armazém</span><br><br>
+                    <p class="">
+                        A computação quântica pode ajudar a gerenciar melhor o espaço e a prever possíveis problemas.
+                    </p>
+                </div>
+                <div class="text cor-roxa">
+                    <span>Aeroportos e estações de trem</span><br><br>
+                    <p class="">
+                        A tecnologia pode ser aplicada para gerenciar o fluxo de Bagagem dentro desses lugares
+                        movimentados.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+
+
+        <div class="energia">
+            <p class="subtitulo">Energia
+            </p>
+            <div class="img-destaque">
+                <img src="energia.jpg" alt="" class="imgenergia">
+            </div>
+
+            <div class="conteudo text-energia">
+                <div class="text">
+                    <div class="">
+                        <p>
+                            <span>Produção de energia mais eficiente
+                            </span><br><br>
+                            Através do uso de simulações quânticas, podemos aprimorar a eficiência energética e reduzir
+                            o impacto ambiental.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="">
+                        <p>
+                            <span>Gerenciamento de redes elétricas
+                            </span><br><br>
+                            Simulações mais precisas podem ajudar a analisar as redes elétricas e otimizar o equilíbrio
+                            de energia.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="">
+                        <p>
+                            <span>Aprimoramento de baterias
+                            </span><br><br>
+                            A computação quântica pode ser útil para simular a dinâmica quântica dos processos dentro de
+                            baterias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="medicina">
+            <p class="subtitulo">Medicina</p>
+            <div class="conteudo">
+                <div class="text">
+                    <div class="img-destaque">
+                        <br>
+                        <br>
+                        <img src="DNA.png" alt="" class="img-menores">
+                        <p>
+                            <span>DNA</span><br><br>
+                            Com a ajuda da computação quântica, é possível sequenciar o DNA com uma precisão sem
+                            precedentes.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="Desenvolvimento de medicamentos.png" alt="" class="img-menores">
+                        <p>
+                            <span>Desenvolvimento de medicamentos</span><br><br>
+                            Com as simulações moleculares mais precisas feitas pela computação quântica, podemos
+                            acelerar o processo de desenvolvimento do medicamento.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="Terapia de Radiação Quântica.png" alt="" class="img-menores">
+                        <p>
+                            <span>Terapia de Radiação Quântica</span><br><br>
+                            A computação quântica pode ser usada para modelar melhor o impacto da radiação quando se
+                            escolhe a dose certa para tratar o câncer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div id="estudos">
+            <p class="subtitulo">Estudos de casos</p><br><br>
+            <div class="estudos-casos">
+                <ol>
+                    <li class="um">
+                        <p class="text-desafio">Empresa IBM</p>
+                        <p class="descricao-desafio">
+                            A IBM está trabalhando em um projeto de computação quântica para desenvolver novos materiais
+                            para baterias de íons de lítio.
+                        </p>
+                    </li>
+                    <li class="dois">
+                        <p class="text-desafio">Volkswagen</p>
+                        <p class="descricao-desafio">
+                            A Volkswagen está utilizando a computação quântica para otimizar o tráfego de veículos em
+                            cidades
+                        </p>
+                    </li>
+                    <li class="tres">
+                        <p class="text-desafio">Goldman Sachs</p>
+                        <p class="descricao-desafio">A integração A Goldman Sachs está trabalhando em parceria com a
+                            AWS, o HSBC e a IBM para investigar o uso da computação quântica na indústria financeira
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="quantica-potencial">
+            <p class="subtitulo">Impactos potencial</p>
+            <div class="conteudo">
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="" alt="" class="">
+                        <p>
+                            <span>Processamento avançado</span><br><br>
+                            A computação quântica tem o potencial de acelerar o processamento de problemas complexos,
+                            superando as limitações dos computadores clássicos.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="" alt="" class="">
+                        <p>
+                            <span>Comunicação quântica</span><br><br>
+                            A comunicação quântica possibilita a transmissão segura de informações, baseada nos
+                            princípios da física quântica, garantindo criptografia e privacidade.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="" alt="" class="">
+                        <p>
+                            <span>Algoritmos quânticos</span><br><br>
+                            Os algoritmos quânticos podem resolver problemas de maneira mais eficiente do que os
+                            algoritmos clássicos, abrindo portas para novas descobertas e aplicações.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="espacamento-linha">
+        <hr class="linha">
+    </div>
+
+    <section id="desafiosOportunidades" class="text-descricao">
+        <h1 class="titulo titulo-desafio">Desafios e Oportunidades</h1>
+        <p class="descricao">
+            A computação quântica enfrenta desafios significativos, mas também oferece oportunidades de pesquisa e
+            desenvolvimento. Além disso, os profissionais podem contribuir para avanços na área de diversas maneiras.
+        </p>
+
+        <div class="oportunidades-desenvolvimento">
+            <p class="subtitulo">Oportunidades de pesquisa e desenvolvimento</p>
+            <table border="1">
+                <tr>
+                    <td>
+                        <p>Algoritmos quânticos</p>
+                        <ul>
+                            <li>
+                                Novos algoritmos que aproveite as capacidades de processamento dos computadores
+                                quânticos para resolver problemas complexos de maneira mais eficiente.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>Segurança da informação</p>
+                        <ul>
+                            <li>
+                                Explora como a computação quântica pode impactar a segurança da informação e desenvolva
+                                soluções criptográficas robustas.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Simulações avançadas</p>
+                        <ul>
+                            <li>
+                                Utiliza a computação quântica para realizar simulações mais precisas em áreas como
+                                física quântica, química computacional e otimização.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <p>Otimização de processos</p>
+                        <ul>
+                            <li>
+                                Desenvolve técnicas que explora a capacidade dos computadores de otimizar processos,
+                                desde cadeias de suprimentos até operações financeiras.
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="profissionais">
+            <p class="subtitulo">Como os profissionais podem contribuir para avanços na área.
+            </p>
+            <div class="energia img-destaque">
+                <img src="profissionais.jpg" alt="" class="img-profissionais">
+            </div>
+
+            <div class="conteudo text-profissionais">
+                <div class="text">
+                    <div class="">
+                        <p>
+                            <span>Estudo aprofundado</span><br><br>
+                            Profissionais devem investir tempo no estudo e entendimento dos conceitos fundamentais da
+                            computação quântica, desenvolvendo uma base sólida para suas contribuições.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="">
+                        <p>
+                            <span>Colaborações</span><br><br>
+                            Estabelecer parcerias e colaborações com especialistas em outras áreas é fundamental para o
+                            avanço da computação quântica, que se beneficia de diferentes perspectivas.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="">
+                        <p>
+                            <span>Experimentação e prototipagem
+                            </span><br><br>
+                            Profissionais devem buscar oportunidades de experimentação e prototipagem para explorar
+                            novos conceitos e criar soluções inovadoras na área.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="conteudo-desafio">
+            <p class="subtitulo">Desafio Técnico</p>
+            <div class="desafio">
+                <ol>
+                    <li class="um">
+                        <p class="text-desafio">Controle de erros</p>
+                        <p class="descricao-desafio">
+                            Os qubits são suscetíveis a erros, tornando necessário o desenvolvimento de técnicas
+                            robustas de
+                            correção de erros para garantir a precisão dos resultados.
+                        </p>
+                    </li>
+                    <li class="dois">
+                        <p class="text-desafio">Escalabilidade</p>
+                        <p class="descricao-desafio">
+                            Escalar os sistemas quânticos para lidar com problemas cada vez mais complexos é um desafio
+                            técnico que requer inovação e avanços na tecnologia.
+                        </p>
+                    </li>
+                    <li class="tres">
+                        <p class="text-desafio">Integração com sistemas clássicos</p>
+                        <p class="descricao-desafio">A integração eficiente entre os computadores quânticos e os
+                            sistemas
+                            tradicionais é um desafio que precisa ser superado para aproveitar todo o potencial da
+                            computação quântica.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="espacamento-linha">
+        <hr class="linha">
+    </div>
+
+    <section id="matematica" class="text-descricao">
+        <h1 class="titulo">Entendendo a Matemática por Trás da Computação Quântica</h1>
+        <p class="descricao">
+            Nesta apresentação, exploraremos os conceitos matemáticos fundamentais que sustentam a computação quântica e
+            discutiremos recursos para aprofundamento.
+        </p>
+
+        <div id="matematica">
+            <p class="subtitulo">Conceitos Matemáticos Fundamentais</p><br><br>
+            <div class="matematica">
+                <ol>
+                    <div class="matematica-includes">
+                        <li class="um">
+                            <p class="text-desafio">Vetores</p>
+                            <p class="descricao-desafio">
+                                A utilização de qubits como entidades fundamentais na computação quântica é
+                                essencialmente matemática e faz uso de espaço vetorial.
+                            </p>
+                        </li>
+                        <li class="dois">
+                            <p class="text-desafio">Superposição</p>
+                            <p class="descricao-desafio">
+                                A superposição permite que um qubit esteja em múltiplos estados simultaneamente,
+                                possibilitando cálculos paralelos e maior capacidade de processamento.
+                            </p>
+                        </li>
+                    </div>
+                    <li class="tres">
+                        <p class="text-desafio">Emaranhamento</p>
+                        <p class="descricao-desafio">O emaranhamento é uma propriedade única dos sistemas quânticos,
+                            onde a alteração do estado de um qubit afeta instantaneamente o estado de outro,
+                            independentemente da distância entre eles.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="recursos">
+            <p class="subtitulo">Recursos para aprofundamento</p>
+            <div class="conteudo">
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="Livros Recomendados.png" alt="" class="img-menores">
+                        <p>
+                            <span>Livros Recomendados</span><br><br>
+                            "Computação Quântica: Uma Abordagem Moderna" por Michael A. Nielsen e Isaac L. Chuang
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="Cursos Online.png" alt="" class="img-menores">
+                        <p>
+                            <span>Cursos Online</span><br><br>
+                            "Introdução à Computação Quântica" na plataforma Coursera
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="img-destaque">
+                        <img src="Artigos.png" alt="" class="img-menores">
+                        <p>
+                            <span>Artigos</span><br><br>
+                            "Quantum Computing: Revolutionizing the Future" por Ada Lovelace
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="espacamento-linha">
+            <hr class="linha2">
+        </div>
+
+        <div class="bibliografia">
+            <p class="subtitulo">Bibliográfia</p>
+            <div class="conteudo">
+                <div>
+                    <a
+                        href="https://febrabantech.febraban.org.br/temas/inovacao/computacao-quantica-avanca-mas-capacitacao-ainda-e-desafio">Link
+                        para Computação quântica avança, mas capacitação ainda é desafio - <span>FEBRABAN TECH</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://agencia.ufc.br/a-disputa-pela-vantagem-computacional-quantica/">Link para A disputa
+                        pela vantagem computacional quântica -
+                        <span>AGÊNCIA UFC</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+img {
+    margin-top: 50px;
+}
+
+section{
+    padding-bottom: 50px;
+}
+
+.text-perguntas:target {
+    scroll-margin-top: 100px;
+}
+
+.text-perguntas {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-perguntas .titulo {
+    margin-top: 30px;
+    font: 600 1.5rem 'Kdam Thmor Pro';
+    color: var(--color-roxo);
+}
+
+ol {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.perguntas,
+ol li {
+    margin-top: 40px;
+    font-weight: 200;
+    font: 1rem 'Kdam Thmor Pro';
+    color: var(--color-azul-bebe)
+}
+
+.resposta {
+    text-align: justify;
+    margin: 10px 0 0 10px;
+    font: 1.2rem 'Dosis';
+    color: var(--color-azul-escuro-principal)
+}

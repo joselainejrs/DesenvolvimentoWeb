@@ -7,8 +7,8 @@ Repositório central das aplicações desenvolvidas durante o curso. Os projetos
   
 |Link  | Imagem |
 | ------------- | ------------- |
-| <a href=""> Portfolio Simples </a>  | Content Cell  |
-| <a href=""> Computação Quantica </a>  |  Content Cell  |
+| <a href="https://github.com/Student-Dev-SI/desenvolvimento-web/tree/main/AC3-DW"> Portfolio Simples </a>  | Content Cell  |
+| <a href="https://github.com/Student-Dev-SI/desenvolvimento-web/tree/main/AC5-DW"> Computação Quantica </a>  |  Content Cell  |
   
 </div>
 

@@ -5,10 +5,10 @@ Repositório central das aplicações desenvolvidas durante o curso. Os projetos
 <br>
 <div align="center">
   
-|Link  | Imagem |
+|Link  | Repositório |
 | ------------- | ------------- |
-| <a href=""> Portfolio Simples </a>  | Content Cell  |
-| <a href="https://github.com/Student-Dev-SI/AC5-DW"> Computação Quantica </a>  |  Content Cell  |
+| <a href="https://joselainejrs.github.io/AC3-DW/"> Acesse o site </a>  | <a href="https://github.com/joselainejrs/AC3-DW/"> Portfolio Simples </a> |
+| <a href="https://joselainejrs.github.io/AC5-DW/"> Acesse o site </a>  | <a href="https://github.com/joselainejrs/AC5-DW"> Computação Quantica </a>   |
   
 </div>
 

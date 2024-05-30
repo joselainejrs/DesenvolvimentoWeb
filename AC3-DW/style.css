@@ -1,0 +1,321 @@
+#conteudo #destaque {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+#conteudo #destaque figure img {
+    width: 300px;
+}
+
+#conteudo header #destaque .apresentacao {
+    margin: 50px 0 50px;
+}
+
+#conteudo #destaque .apresentacao h1 {
+    color: #E8A2A2;
+    font: 700 3rem 'Inter';
+}
+
+#destaque .apresentacao p {
+    font: 1.3rem 'Itim';
+    text-align: center;
+}
+
+/* Parte do quem sou  */
+
+#conteudo .titulo {
+    font: 3rem 'Itim';
+    color: #E8A2A2;
+    text-align: center;
+    margin: 60px;
+}
+
+#conteudo #quem-sou {
+    margin: 0 auto;
+}
+
+#conteudo #quem-sou .soft-hard {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteudo #quem-sou .card-quem-sou {
+    /* margin: 0 auto; */
+    border: 1px solid #E8A2A2;
+    width: 435px;
+    height: 200px;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(232, 162, 162, 1);
+}
+
+#conteudo #quem-sou .card-quem-sou h4 {
+    font: 1.1rem 'Itim';
+    color: #E8A2A2;
+    margin: 10px 0;
+}
+
+#conteudo #quem-sou .card-quem-sou ul p {
+    font: 400 0.9rem 'Inter';
+    color: #E8A2A2;
+}
+
+#conteudo #quem-sou .card-quem-sou ul li {
+    font: 400 0.9rem 'Inter';
+    color: white;
+    margin: 6px 0;
+}
+
+#conteudo #quem-sou .card-quem-sou ul li span {
+    font: 100 0.9rem 'Inter';
+    color: white;
+}
+
+/* meu projrtos  */
+
+#conteudo #meus-projetos {
+    margin: 0 auto;
+}
+
+#conteudo #meus-projetos .projetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+}
+
+#conteudo #meus-projetos .projetos .card-projetos {
+    border: 1px solid white;
+    width: 259px;
+    height: 360px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 1);
+}
+
+#conteudo #meus-projetos .projetos figure img {
+    width: 259px;
+    border-radius: 20px;
+}
+
+#conteudo #meus-projetos .projetos h5 {
+    font: 1rem 'Itim';
+    text-align: left;
+    color: white;
+    padding: 10px 10px 0px;
+}
+
+#conteudo #meus-projetos .projetos p {
+    font: 400 0.9rem 'Inter';
+    text-align: left;
+    color: #E8A2A2;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    #destaque .apresentacao p {
+        font: 0.7rem 'Itim';
+    }
+
+    #conteudo .titulo {
+        font: 14px 'Itim';
+    }
+
+    #conteudo #destaque .apresentacao h1 {
+        font: 700 1rem 'Inter';
+    }
+
+    #conteudo #quem-sou .soft-hard {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #quem-sou .soft-hard .card-quem-sou {
+        margin-bottom: 30px;
+        width: 197px;
+        height: 256px;
+    }
+
+    #conteudo #meus-projetos .projetos {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 10% !important;
+        height: 422px;
+    }
+
+    
+    #conteudo #meus-projetos .projetos figure img {
+        width: 159px;
+        border-radius: 20px;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 15%;
+        height: 299px;
+        width: 160px;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 505px) {
+    #destaque .apresentacao p {
+        font: 0.7rem 'Itim';
+    }
+
+    #conteudo .titulo {
+        font: 14px 'Itim';
+    }
+
+    #conteudo #destaque .apresentacao h1 {
+        font: 700 2rem 'Inter' !important;
+    }
+
+    #conteudo #quem-sou .soft-hard {
+        display: block;
+        margin: auto 37px;
+    }
+
+    #conteudo #quem-sou .soft-hard .card-quem-sou {
+        margin-bottom: 30px;
+        width: 197px;
+        height: 256px;
+    }
+
+    #conteudo #meus-projetos .projetos {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 20% !important;
+        height: 422px;
+    }
+
+    
+    #conteudo #meus-projetos .projetos figure img {
+        width: 159px;
+        border-radius: 20px;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 15%;
+        height: 299px;
+        width: 160px;
+    }
+
+}
+
+@media (min-width: 506px) and (max-width: 701px) {
+    #conteudo .titulo {
+        font: 2rem 'Itim';
+    }
+
+    #conteudo #quem-sou .soft-hard {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #quem-sou .soft-hard .card-quem-sou {
+        margin-bottom: 30px;
+        width: 357px;
+    }
+
+    #conteudo #meus-projetos .projetos {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 15%;
+        height: 422px;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1001px) {
+    #conteudo #quem-sou .soft-hard {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #quem-sou .soft-hard .card-quem-sou {
+        margin-bottom: 30px;
+        width: 500px;
+    }
+
+    #conteudo #meus-projetos .projetos {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        margin: 10% 26%;
+        height: 422px;
+    }
+
+    #conteudo #meus-projetos .projetos figure img {
+        width: 259px;
+        border-radius: 20px;
+    }
+
+    #conteudo #meus-projetos .projetos h5 {
+        text-align: center;
+        font: 1.5rem 'Itim';
+    }
+
+    #conteudo #meus-projetos .projetos p {
+        font: 1.3rem 'Itim';
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    #conteudo #quem-sou .soft-hard {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #quem-sou .soft-hard .card-quem-sou {
+        margin-bottom: 30px;
+        width: 626px;
+    }
+
+    #conteudo #meus-projetos .projetos {
+        display: block;
+        margin: auto 0;
+    }
+
+    #conteudo #meus-projetos .projetos .card-projetos {
+        width: 626px;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+
+    #conteudo #meus-projetos .projetos figure img {
+        width: 259px;
+        border-radius: 20px;
+    }
+
+    #conteudo #meus-projetos .projetos h5 {
+        color: black;
+        text-align: center;
+        font: 1.5rem 'Itim';
+    }
+
+    #conteudo #meus-projetos .projetos p {
+        font: 1.3rem 'Itim';
+        text-align: center;
+        color: black;
+
+    }
+
+}
